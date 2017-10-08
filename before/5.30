@@ -1,0 +1,10 @@
+#-*- coding: utf-8 -*-
+from ITRI import JCSOUND
+
+sound=JCSOUND()
+
+poe=["洋洋","羊肉"]
+
+for n in range(0,4):
+      print poe[n]
+      sound.run_sound(poe[n])
